@@ -1,0 +1,1155 @@
+# Catalan translation for gnome-shell-extension-openweather.
+# Copyright (C) 2011
+# This file is distributed under the same license as the gnome-shell-extension-openweather package.
+# Pau Iranzo <paugnu@gmail.com>, 2011.
+# Christian METZLER <neroth@xeked.com>, 2012.
+# @jcatfor, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-shell-extension-openweather 121\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-18 10:49-0300\n"
+"PO-Revision-Date: 2023-07-07 15:04+0200\n"
+"Last-Translator: @jcatfor\n"
+"Language-Team: Softcatalà\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.3.1\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: src/extension.js:267
+msgid ""
+"Openweathermap.org does not work without an api-key.\n"
+"Either set the switch to use the extensions default key in the preferences "
+"dialog to on or register at https://openweathermap.org/appid and paste your "
+"personal key into the preferences dialog."
+msgstr ""
+"Openweathermap.org no funciona sense una clau de l'API.\n"
+"Activeu el commutador al diàleg de preferències per a utilitzar la clau "
+"d'extensions predeterminada o registreu-vos a https://openweahermap.org/"
+"appid i enganxeu la vostra clau personal al diàleg de preferències."
+
+#: src/extension.js:454 src/extension.js:466
+#, javascript-format
+msgid "Can not connect to %s"
+msgstr "No es pot connectar a %s"
+
+#: src/extension.js:769 src/preferences/locationsPage.js:37
+#: src/preferences/locationsPage.js:56
+msgid "Locations"
+msgstr "Ubicacions"
+
+#: src/extension.js:770
+msgid "Reload Weather Information"
+msgstr "Recarregar la informació del temps"
+
+#: src/extension.js:771
+#, javascript-format
+msgid "Weather data by: %s"
+msgstr "Informació del temps proporcionada per: %s"
+
+#: src/extension.js:773
+msgid "Weather Settings"
+msgstr "El Temps - Configuració"
+
+#: src/extension.js:787
+msgid "Manual refreshes less than 2 minutes apart are ignored!"
+msgstr ""
+"S'ignoren les actualitzacions manuals amb intervals menors de 2 minuts!"
+
+#: src/extension.js:801
+#, javascript-format
+msgid "Can not open %s"
+msgstr "No es pot obrir %s"
+
+#: src/extension.js:849 src/preferences/locationsPage.js:507
+msgid "Invalid city"
+msgstr "Ciutat no vàlida"
+
+#: src/extension.js:860
+msgid "Invalid location! Please try to recreate it."
+msgstr "Ubicació no vàlida! Proveu de recrear-la."
+
+#: src/extension.js:906 src/preferences/generalPage.js:148
+msgid "°F"
+msgstr ""
+
+#: src/extension.js:908 src/preferences/generalPage.js:149
+msgid "K"
+msgstr ""
+
+#: src/extension.js:910 src/preferences/generalPage.js:150
+msgid "°Ra"
+msgstr ""
+
+#: src/extension.js:912 src/preferences/generalPage.js:151
+msgid "°Ré"
+msgstr ""
+
+#: src/extension.js:914 src/preferences/generalPage.js:152
+msgid "°Rø"
+msgstr ""
+
+#: src/extension.js:916 src/preferences/generalPage.js:153
+msgid "°De"
+msgstr ""
+
+#: src/extension.js:918 src/preferences/generalPage.js:154
+msgid "°N"
+msgstr ""
+
+#: src/extension.js:920 src/preferences/generalPage.js:147
+msgid "°C"
+msgstr ""
+
+#: src/extension.js:957
+msgid "Calm"
+msgstr "Calma"
+
+#: src/extension.js:960
+msgid "Light air"
+msgstr "Ventolina"
+
+#: src/extension.js:963
+msgid "Light breeze"
+msgstr "Vents fluixets"
+
+#: src/extension.js:966
+msgid "Gentle breeze"
+msgstr "Vent feble"
+
+#: src/extension.js:969
+msgid "Moderate breeze"
+msgstr "Vent moderat"
+
+#: src/extension.js:972
+msgid "Fresh breeze"
+msgstr "Vent fresquet"
+
+#: src/extension.js:975
+msgid "Strong breeze"
+msgstr "Vent fresc"
+
+#: src/extension.js:978
+msgid "Moderate gale"
+msgstr "Vent fort"
+
+#: src/extension.js:981
+msgid "Fresh gale"
+msgstr "Temporal"
+
+#: src/extension.js:984
+msgid "Strong gale"
+msgstr "Temporal fort"
+
+#: src/extension.js:987
+msgid "Storm"
+msgstr "Temporal molt fort"
+
+#: src/extension.js:990
+msgid "Violent storm"
+msgstr "Temporal violent"
+
+#: src/extension.js:993
+msgid "Hurricane"
+msgstr "Huracà"
+
+#: src/extension.js:997
+msgid "Sunday"
+msgstr "Diumenge"
+
+#: src/extension.js:997
+msgid "Monday"
+msgstr "Dilluns"
+
+#: src/extension.js:997
+msgid "Tuesday"
+msgstr "Dimarts"
+
+#: src/extension.js:997
+msgid "Wednesday"
+msgstr "Dimecres"
+
+#: src/extension.js:997
+msgid "Thursday"
+msgstr "Dijous"
+
+#: src/extension.js:997
+msgid "Friday"
+msgstr "Divendres"
+
+#: src/extension.js:997
+msgid "Saturday"
+msgstr "Dissabte"
+
+#: src/extension.js:1003
+msgid "N"
+msgstr ""
+
+#: src/extension.js:1003
+msgid "NE"
+msgstr ""
+
+#: src/extension.js:1003
+msgid "E"
+msgstr ""
+
+#: src/extension.js:1003
+msgid "SE"
+msgstr ""
+
+#: src/extension.js:1003
+msgid "S"
+msgstr ""
+
+#: src/extension.js:1003
+msgid "SW"
+msgstr "SO"
+
+#: src/extension.js:1003
+msgid "W"
+msgstr "O"
+
+#: src/extension.js:1003
+msgid "NW"
+msgstr "NO"
+
+#: src/extension.js:1056 src/extension.js:1065
+#: src/preferences/generalPage.js:177
+msgid "hPa"
+msgstr ""
+
+#: src/extension.js:1060 src/preferences/generalPage.js:178
+msgid "inHg"
+msgstr ""
+
+#: src/extension.js:1070 src/preferences/generalPage.js:179
+msgid "bar"
+msgstr ""
+
+#: src/extension.js:1075 src/preferences/generalPage.js:180
+msgid "Pa"
+msgstr ""
+
+#: src/extension.js:1080 src/preferences/generalPage.js:181
+msgid "kPa"
+msgstr ""
+
+#: src/extension.js:1085 src/preferences/generalPage.js:182
+msgid "atm"
+msgstr ""
+
+#: src/extension.js:1090 src/preferences/generalPage.js:183
+msgid "at"
+msgstr ""
+
+#: src/extension.js:1095 src/preferences/generalPage.js:184
+msgid "Torr"
+msgstr ""
+
+#: src/extension.js:1100 src/preferences/generalPage.js:185
+msgid "psi"
+msgstr ""
+
+#: src/extension.js:1105 src/preferences/generalPage.js:186
+msgid "mmHg"
+msgstr ""
+
+#: src/extension.js:1110 src/preferences/generalPage.js:187
+msgid "mbar"
+msgstr ""
+
+#: src/extension.js:1158 src/preferences/generalPage.js:165
+msgid "m/s"
+msgstr ""
+
+#: src/extension.js:1163 src/preferences/generalPage.js:164
+msgid "mph"
+msgstr ""
+
+#: src/extension.js:1168 src/preferences/generalPage.js:163
+msgid "km/h"
+msgstr ""
+
+#: src/extension.js:1177 src/preferences/generalPage.js:166
+msgid "kn"
+msgstr ""
+
+#: src/extension.js:1182 src/preferences/generalPage.js:167
+msgid "ft/s"
+msgstr ""
+
+#: src/extension.js:1227 src/extension.js:1265
+msgid "Loading ..."
+msgstr "S'està carregant..."
+
+#: src/extension.js:1269
+msgid "Please wait"
+msgstr "Si us plau, espereu"
+
+#: src/extension.js:1340
+msgid "Feels Like:"
+msgstr "Sensació de:"
+
+#: src/extension.js:1344
+msgid "Humidity:"
+msgstr "Humitat:"
+
+#: src/extension.js:1348
+msgid "Pressure:"
+msgstr "Pressió:"
+
+#: src/extension.js:1352
+msgid "Wind:"
+msgstr "Vent:"
+
+#: src/extension.js:1356
+msgid "Gusts:"
+msgstr "Ratxes:"
+
+#: src/extension.js:1487
+msgid "Tomorrow's Forecast"
+msgstr "Previsió per demà"
+
+#: src/extension.js:1489
+#, javascript-format
+msgid "%s Day Forecast"
+msgstr "Previsió pels propers %s dies"
+
+#: src/openweathermap.js:50
+msgid "Thunderstorm with Light Rain"
+msgstr "Tempestes amb pluges febles"
+
+#: src/openweathermap.js:52
+msgid "Thunderstorm with Rain"
+msgstr "Tempestes amb pluges"
+
+#: src/openweathermap.js:54
+msgid "Thunderstorm with Heavy Rain"
+msgstr "Tempestes amb pluges fortes"
+
+#: src/openweathermap.js:56
+msgid "Light Thunderstorm"
+msgstr "Tempestes febles"
+
+#: src/openweathermap.js:58
+msgid "Thunderstorm"
+msgstr "Tempestes"
+
+#: src/openweathermap.js:60
+msgid "Heavy Thunderstorm"
+msgstr "Tempestes fortes"
+
+#: src/openweathermap.js:62
+msgid "Ragged Thunderstorm"
+msgstr "Tempestes aïllades"
+
+#: src/openweathermap.js:64
+msgid "Thunderstorm with Light Drizzle"
+msgstr "Tempestes amb plugims febles"
+
+#: src/openweathermap.js:66
+msgid "Thunderstorm with Drizzle"
+msgstr "Tempestes amb plugims"
+
+#: src/openweathermap.js:68
+msgid "Thunderstorm with Heavy Drizzle"
+msgstr "Tempestes amb plugims forts"
+
+#: src/openweathermap.js:70
+msgid "Light Drizzle"
+msgstr "Plugims febles"
+
+#: src/openweathermap.js:72
+msgid "Drizzle"
+msgstr "Plugims"
+
+#: src/openweathermap.js:74
+msgid "Heavy Drizzle"
+msgstr "Plugims forts"
+
+#: src/openweathermap.js:76
+msgid "Light Drizzle Rain"
+msgstr "Plugims febles"
+
+#: src/openweathermap.js:78
+msgid "Drizzle Rain"
+msgstr "Plugims"
+
+#: src/openweathermap.js:80
+msgid "Heavy Drizzle Rain"
+msgstr "Plugims forts"
+
+#: src/openweathermap.js:82
+msgid "Shower Rain and Drizzle"
+msgstr "Ruixats i plugims"
+
+#: src/openweathermap.js:84
+msgid "Heavy Rain and Drizzle"
+msgstr "Pluges fortes i plugims"
+
+#: src/openweathermap.js:86
+msgid "Shower Drizzle"
+msgstr "Ruixats en forma de plugims"
+
+#: src/openweathermap.js:88
+msgid "Light Rain"
+msgstr "Pluja feble"
+
+#: src/openweathermap.js:90
+msgid "Moderate Rain"
+msgstr "Pluja moderada"
+
+#: src/openweathermap.js:92
+msgid "Heavy Rain"
+msgstr "Pluja forta"
+
+#: src/openweathermap.js:94
+msgid "Very Heavy Rain"
+msgstr "Pluja molt forta"
+
+#: src/openweathermap.js:96
+msgid "Extreme Rain"
+msgstr "Pluja torrencial"
+
+#: src/openweathermap.js:98
+msgid "Freezing Rain"
+msgstr "Pluja gelant"
+
+#: src/openweathermap.js:100
+msgid "Light Shower Rain"
+msgstr "Ruixats febles"
+
+#: src/openweathermap.js:102
+msgid "Shower Rain"
+msgstr "Ruixats"
+
+#: src/openweathermap.js:104
+msgid "Heavy Shower Rain"
+msgstr "Ruixats forts"
+
+#: src/openweathermap.js:106
+msgid "Ragged Shower Rain"
+msgstr "Ruixats aïllats"
+
+#: src/openweathermap.js:108
+msgid "Light Snow"
+msgstr "Nevades febles"
+
+#: src/openweathermap.js:110
+msgid "Snow"
+msgstr "Neu"
+
+#: src/openweathermap.js:112
+msgid "Heavy Snow"
+msgstr "Nevades fortes"
+
+#: src/openweathermap.js:114
+msgid "Sleet"
+msgstr "Aiguaneu"
+
+#: src/openweathermap.js:116
+msgid "Light Shower Sleet"
+msgstr "Ruixats d'aiguaneu febles"
+
+#: src/openweathermap.js:118
+msgid "Shower Sleet"
+msgstr "Ruixats d'aiguaneu"
+
+#: src/openweathermap.js:120
+msgid "Light Rain and Snow"
+msgstr "Pluja feble i neu"
+
+#: src/openweathermap.js:122
+msgid "Rain and Snow"
+msgstr "Pluja i neu"
+
+#: src/openweathermap.js:124
+msgid "Light Shower Snow"
+msgstr "Ruixats de neu febles"
+
+#: src/openweathermap.js:126
+msgid "Shower Snow"
+msgstr "Ruixats de neu"
+
+#: src/openweathermap.js:128
+msgid "Heavy Shower Snow"
+msgstr "Ruixats de neu forts"
+
+#: src/openweathermap.js:130
+msgid "Mist"
+msgstr "Boirina"
+
+#: src/openweathermap.js:132
+msgid "Smoke"
+msgstr "Boira"
+
+#: src/openweathermap.js:134
+msgid "Haze"
+msgstr "Calitja"
+
+#: src/openweathermap.js:136
+msgid "Sand/Dust Whirls"
+msgstr "Remolins d'arena"
+
+#: src/openweathermap.js:138
+msgid "Fog"
+msgstr "Emboirat"
+
+#: src/openweathermap.js:140
+msgid "Sand"
+msgstr "Arena"
+
+#: src/openweathermap.js:142
+msgid "Dust"
+msgstr "Pols"
+
+#: src/openweathermap.js:144
+msgid "Volcanic Ash"
+msgstr "Cendres volcàniques"
+
+#: src/openweathermap.js:146
+msgid "Squalls"
+msgstr "Borrasques"
+
+#: src/openweathermap.js:148
+msgid "Tornado"
+msgstr "Tornados"
+
+#: src/openweathermap.js:150
+msgid "Clear Sky"
+msgstr "Cel seré"
+
+#: src/openweathermap.js:152
+msgid "Few Clouds"
+msgstr "Poca nuvolositat"
+
+#: src/openweathermap.js:154
+msgid "Scattered Clouds"
+msgstr "Núvols dispersos"
+
+#: src/openweathermap.js:156
+msgid "Broken Clouds"
+msgstr "Nuvolositat variable"
+
+#: src/openweathermap.js:158
+msgid "Overcast Clouds"
+msgstr "Ennuvolat"
+
+#: src/openweathermap.js:160
+msgid "Not available"
+msgstr "No disponible"
+
+#: src/openweathermap.js:374 src/openweathermap.js:376
+msgid ", "
+msgstr ""
+
+#: src/openweathermap.js:392
+msgid "?"
+msgstr ""
+
+#: src/openweathermap.js:460
+msgid "Tomorrow"
+msgstr "Demà"
+
+#: src/preferences/generalPage.js:31
+msgid "Settings"
+msgstr "Configuració"
+
+#: src/preferences/generalPage.js:39
+msgid "General"
+msgstr ""
+
+#: src/preferences/generalPage.js:57
+msgid "Current Weather Refresh"
+msgstr "Actualitzacions de l'estat del temps"
+
+#: src/preferences/generalPage.js:58
+msgid "Current weather refresh interval in minutes"
+msgstr "Interval en minuts entre les actualitzacions de l'estat del temps"
+
+#: src/preferences/generalPage.js:80
+msgid "Weather Forecast Refresh"
+msgstr "Actualitzacions de les previsions"
+
+#: src/preferences/generalPage.js:81
+msgid "Forecast refresh interval in minutes if enabled"
+msgstr ""
+"Interval en minuts entre les actualitzacions de les previsions si estan "
+"activades"
+
+#: src/preferences/generalPage.js:92
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:108
+msgid "Disable Forecast"
+msgstr "Desactivar les previsions"
+
+#: src/preferences/generalPage.js:93
+msgid "Disables all fetching and processing of forecast data"
+msgstr "Es desactiva tota l'obtenció i el processament de dades de la previsió"
+
+#: src/preferences/generalPage.js:104
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:96
+msgid "System Icons"
+msgstr "Icones del sistema"
+
+#: src/preferences/generalPage.js:105
+msgid "Disable to use packaged Adwaita weather icons"
+msgstr ""
+"Desactiveu-ho per utilitzar les icones meteorològiques incloses d'Adwaita"
+
+#: src/preferences/generalPage.js:106
+msgid ""
+"If you have issues with your system icons displaying correctly disable this "
+"to fix it"
+msgstr ""
+"Si teniu problemes per a que les icones del vostre sistema es mostrin "
+"correctament, desactiveu-ho per solucionar-ho"
+
+#: src/preferences/generalPage.js:126
+msgid "First Boot Delay"
+msgstr "Retard de la primera arrencada"
+
+#: src/preferences/generalPage.js:127
+msgid "Seconds to delay popup initialization and data fetching"
+msgstr ""
+"Segons per a retardar la inicialització de la finestra emergent i l'obtenció "
+"de dades"
+
+#: src/preferences/generalPage.js:128
+msgid ""
+"This setting only applies to the first time the extension is loaded. (first "
+"log in / restarting gnome shell)"
+msgstr ""
+"Aquesta configuració només s'aplica la primera vegada que es carrega "
+"l'extensió. (primer inici de sessió / reinici del shell del gnome)"
+
+#: src/preferences/generalPage.js:142
+msgid "Units"
+msgstr "Unitats"
+
+#: src/preferences/generalPage.js:156
+msgid "Temperature"
+msgstr "Temperatura"
+
+#: src/preferences/generalPage.js:168
+msgid "Beaufort"
+msgstr "Escala Beaufort"
+
+#: src/preferences/generalPage.js:170
+msgid "Wind Speed"
+msgstr "Velocitat del vent"
+
+#: src/preferences/generalPage.js:189
+msgid "Pressure"
+msgstr "Pressió"
+
+#: src/preferences/generalPage.js:201 src/preferences/locationsPage.js:64
+msgid "Provider"
+msgstr "Proveïdor"
+
+#: src/preferences/generalPage.js:210
+msgid "OpenWeatherMap Multilingual Support"
+msgstr "Suport Multilingüe de l'OpenWeatherMap"
+
+#: src/preferences/generalPage.js:211
+msgid "Using provider translations applies to weather conditions only"
+msgstr ""
+"L'ús de traduccions del proveïdor només s'aplica a les condicions "
+"meteorològiques"
+
+#: src/preferences/generalPage.js:212
+msgid ""
+"Enable this to use OWM multilingual support in 46 languages if there's no "
+"built-in translations for your language yet."
+msgstr ""
+"Activeu-ho per utilitzar el suport multilingüe de l'OWM en 46 idiomes si "
+"encara no hi ha traduccions integrades per al vostre idioma."
+
+#: src/preferences/generalPage.js:224
+msgid "Use Extensions API Key"
+msgstr "Utilitzar la clau de l'API d'extensions"
+
+#: src/preferences/generalPage.js:225
+msgid "Use the built-in API key for OpenWeatherMap"
+msgstr "S'utilitza la clau de l'API inclosa per a l'OpenWeatherMap"
+
+#: src/preferences/generalPage.js:226
+msgid ""
+"Disable this if you have your own API key from openweathermap.org and enter "
+"it below."
+msgstr ""
+"Desactiveu aquesta opció si teniu la vostra pròpia clau de l'API "
+"d'openweathermap.org i introduïu-la en el quadre de sota."
+
+#: src/preferences/generalPage.js:240
+msgid "Personal API Key"
+msgstr "Clau personal de l'API"
+
+#: src/preferences/layoutPage.js:31
+msgid "Layout"
+msgstr "Plantilla"
+
+#: src/preferences/layoutPage.js:39
+msgid "Panel"
+msgstr "Tauler"
+
+#: src/preferences/layoutPage.js:44
+msgid "Center"
+msgstr "Centre"
+
+#: src/preferences/layoutPage.js:45
+msgid "Right"
+msgstr "Dreta"
+
+#: src/preferences/layoutPage.js:46
+msgid "Left"
+msgstr "Esquerra"
+
+#: src/preferences/layoutPage.js:48
+msgid "Position In Panel"
+msgstr "Posició al tauler"
+
+#: src/preferences/layoutPage.js:69
+msgid "Position Offset"
+msgstr "Compensació de la posició"
+
+#: src/preferences/layoutPage.js:70
+msgid "The position relative to other items in the box"
+msgstr "La posició en relació a altres elements del requadre del tauler"
+
+#: src/preferences/layoutPage.js:78
+msgid "Show the temperature in the panel"
+msgstr "Es mostra la temperatura al tauler"
+
+#: src/preferences/layoutPage.js:82
+msgid "Temperature In Panel"
+msgstr "Temperatura al tauler"
+
+#: src/preferences/layoutPage.js:90
+msgid "Show the weather conditions in the panel"
+msgstr "Es mostren les condicions climàtiques al tauler"
+
+#: src/preferences/layoutPage.js:94
+msgid "Conditions In Panel"
+msgstr "Condicions climàtiques al tauler"
+
+#: src/preferences/layoutPage.js:107
+msgid "Popup"
+msgstr "Finestra emergent"
+
+#: src/preferences/layoutPage.js:125
+msgid "Popup Position"
+msgstr "Posició de la finestra emergent"
+
+#: src/preferences/layoutPage.js:126
+msgid "Alignment of the popup from left to right"
+msgstr "Alineació d'esquerra a dreta de la finestra emergent"
+
+#: src/preferences/layoutPage.js:137
+msgid "Wind Direction Arrows"
+msgstr "Direcció del vent amb fletxes"
+
+#: src/preferences/layoutPage.js:149
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:88
+msgid "Translate Conditions"
+msgstr "Traduir les condicions climàtiques"
+
+#: src/preferences/layoutPage.js:157
+msgid "0"
+msgstr ""
+
+#: src/preferences/layoutPage.js:158 src/preferences/layoutPage.js:229
+msgid "1"
+msgstr ""
+
+#: src/preferences/layoutPage.js:159 src/preferences/layoutPage.js:230
+msgid "2"
+msgstr ""
+
+#: src/preferences/layoutPage.js:160 src/preferences/layoutPage.js:231
+msgid "3"
+msgstr ""
+
+#: src/preferences/layoutPage.js:162
+msgid "Temperature Decimal Places"
+msgstr "Nombre de decimals del valor de temperatura"
+
+#: src/preferences/layoutPage.js:163
+msgid "Maximum number of digits after the decimal point"
+msgstr "Nombre màxim de dígits després de la coma decimal"
+
+#: src/preferences/layoutPage.js:183
+msgid "Location Text Length"
+msgstr "Llargada del text de la ubicació"
+
+#: src/preferences/layoutPage.js:184
+msgid "Maximum length of the location text. A setting of '0' is unlimited"
+msgstr ""
+"Llargada màxima del text de la ubicació. Un valor de '0' equival a "
+"il·limitada"
+
+#: src/preferences/layoutPage.js:200
+msgid "Forecast"
+msgstr "Previsions"
+
+#: src/preferences/layoutPage.js:210
+msgid "Center Today's Forecast"
+msgstr "Centrar les previsions per avui"
+
+#: src/preferences/layoutPage.js:221
+msgid "Conditions In Forecast"
+msgstr "Condicions climàtiques a les previsions"
+
+#: src/preferences/layoutPage.js:228
+msgid "Today Only"
+msgstr "Només avui"
+
+#: src/preferences/layoutPage.js:232
+msgid "4"
+msgstr ""
+
+#: src/preferences/layoutPage.js:233
+msgid "5"
+msgstr ""
+
+#: src/preferences/layoutPage.js:235
+msgid "Total Days In Forecast"
+msgstr "Nombre de dies a les previsions"
+
+#: src/preferences/layoutPage.js:246
+msgid "Keep Forecast Expanded"
+msgstr "Mantenir les previsions ampliades"
+
+#: src/preferences/locationsPage.js:52
+msgid "Add"
+msgstr "Afegir"
+
+#: src/preferences/locationsPage.js:71
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:58
+msgid "Geolocation Provider"
+msgstr "Proveïdor de la geolocalització"
+
+#: src/preferences/locationsPage.js:72
+msgid "Provider used for location search"
+msgstr "Proveïdor utilitzat per a cercar la ubicació"
+
+#: src/preferences/locationsPage.js:85
+msgid "Personal MapQuest Key"
+msgstr "Clau personal del MapQuest"
+
+#: src/preferences/locationsPage.js:86
+msgid "Personal API Key from developer.mapquest.com"
+msgstr "Clau personal de l'API de developer.mapquest.com"
+
+#: src/preferences/locationsPage.js:206
+#, javascript-format
+msgid "Location changed to: %s"
+msgstr "Heu canviat la ubicació a: %s"
+
+#: src/preferences/locationsPage.js:221
+msgid "Add New Location"
+msgstr "Afegir una ubicació nova"
+
+#: src/preferences/locationsPage.js:242
+msgid "Search by Location or Coordinates"
+msgstr "Cercar per la ubicació o per les coordenades"
+
+#: src/preferences/locationsPage.js:248
+msgid "e.g. Vaiaku, Tuvalu or -8.5211767,179.1976747"
+msgstr "ex. Vaiaku, Tuvalu o -8.5211767,179.1976747"
+
+#: src/preferences/locationsPage.js:250 src/preferences/locationsPage.js:335
+#: src/preferences/locationsPage.js:352
+msgid "Clear entry"
+msgstr "Esborrar l'entrada"
+
+#: src/preferences/locationsPage.js:259
+msgid "Search"
+msgstr "Cercar"
+
+#: src/preferences/locationsPage.js:282
+msgid "We need something to search for!"
+msgstr "Necessitem alguna cosa per a buscar!"
+
+#: src/preferences/locationsPage.js:305
+#, javascript-format
+msgid "Edit %s"
+msgstr "Editar %s"
+
+#: src/preferences/locationsPage.js:327
+msgid "Edit Name"
+msgstr "Editar el nom"
+
+#: src/preferences/locationsPage.js:343
+msgid "Edit Coordinates"
+msgstr "Editar les coordenades"
+
+#: src/preferences/locationsPage.js:361
+msgid "Save"
+msgstr "Desar"
+
+#: src/preferences/locationsPage.js:394
+msgid "Please complete all fields"
+msgstr "Si us plau, ompliu tots els camps"
+
+#: src/preferences/locationsPage.js:410
+#, javascript-format
+msgid "%s has been updated"
+msgstr "%s s'ha actualitzat"
+
+#: src/preferences/locationsPage.js:439
+#, javascript-format
+msgid "Are you sure you want to delete \"%s\"?"
+msgstr "Esteu segurs que voleu suprimir \"%s\"?"
+
+#: src/preferences/locationsPage.js:447
+msgid "Delete"
+msgstr "Suprimir"
+
+#: src/preferences/locationsPage.js:451
+msgid "Cancel"
+msgstr "Cancel·lar"
+
+#: src/preferences/locationsPage.js:483
+#, javascript-format
+msgid "%s has been deleted"
+msgstr "%s s'ha suprimit"
+
+#: src/preferences/locationsPage.js:529
+msgid "Search Results"
+msgstr "Resultats de la cerca"
+
+#: src/preferences/locationsPage.js:545
+msgid "New Search"
+msgstr "Nova cerca"
+
+#: src/preferences/locationsPage.js:552
+msgid "Searching ..."
+msgstr "Cercant..."
+
+#: src/preferences/locationsPage.js:553
+#, javascript-format
+msgid "Please wait while searching for locations matching \"%s\""
+msgstr ""
+"Si us plau, espereu mentre es cerquen ubicacions que coincideixin amb \"%s\""
+
+#: src/preferences/locationsPage.js:605
+msgid "AppKey Required"
+msgstr "Es requereix una clau de l'app"
+
+#: src/preferences/locationsPage.js:606
+#, javascript-format
+msgid "You need an AppKey to use MapQuest, get one at: %s"
+msgstr ""
+"Necessiteu una clau de l'app per poder utilitzar el MapQuest, obteniu-ne una "
+"a: %s"
+
+#: src/preferences/locationsPage.js:709
+#, javascript-format
+msgid "Results for \"%s\""
+msgstr "Resultats per a \"%s\""
+
+#: src/preferences/locationsPage.js:756
+#, javascript-format
+msgid "%s has been added"
+msgstr "%s s'ha afegit"
+
+#: src/preferences/locationsPage.js:764
+msgid "API Error"
+msgstr "Error de l'API"
+
+#: src/preferences/locationsPage.js:765
+#, javascript-format
+msgid "Invalid data when searching for \"%s\"."
+msgstr "Dades no vàlides en cercar \"%s\"."
+
+#: src/preferences/locationsPage.js:768
+msgid "No Matches Found"
+msgstr "No s'han trobat coincidències"
+
+#: src/preferences/locationsPage.js:769
+#, javascript-format
+msgid "No results found when searching for \"%s\"."
+msgstr "No s'han trobat resultats cercant \"%s\"."
+
+#: src/preferences/aboutPage.js:31
+msgid "About"
+msgstr "Quant a"
+
+#: src/preferences/aboutPage.js:58
+msgid ""
+"Display weather information for any location on Earth in the GNOME Shell"
+msgstr ""
+"Mostra la informació meteorològica al Shell de GNOME per a qualsevol "
+"ubicació de la Terra"
+
+#: src/preferences/aboutPage.js:72
+msgid "unknown"
+msgstr "desconegut"
+
+#: src/preferences/aboutPage.js:78
+msgid "OpenWeather Version"
+msgstr "Versió de l'OpenWeather"
+
+#: src/preferences/aboutPage.js:87
+msgid "Git Version"
+msgstr "Versió del Git"
+
+#: src/preferences/aboutPage.js:95
+msgid "GNOME Version"
+msgstr "Versió del GNOME"
+
+#: src/preferences/aboutPage.js:102
+msgid "Session Type"
+msgstr "Tipus de sessió"
+
+#: src/preferences/aboutPage.js:124
+#, javascript-format
+msgid "Maintained by: %s"
+msgstr "Mantingut per: %s"
+
+#: src/preferences/aboutPage.js:161
+#, javascript-format
+msgid "Weather data provided by: %s"
+msgstr "Dades meteorològiques proporcionades per: %s"
+
+#: src/preferences/aboutPage.js:172
+msgid "This program comes with ABSOLUTELY NO WARRANTY."
+msgstr "Aquest programa ve ABSOLUTAMENT SENSE CAP GARANTIA."
+
+#: src/preferences/aboutPage.js:173
+msgid "See the"
+msgstr "Consulteu la"
+
+#: src/preferences/aboutPage.js:174
+msgid "GNU General Public License, version 2 or later"
+msgstr "Llicència Pública General GNU, versió 2 o posterior"
+
+#: src/preferences/aboutPage.js:174
+msgid "for details."
+msgstr "per a més detalls."
+
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:54
+msgid "Weather Provider"
+msgstr "Proveïdor meteorològic"
+
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:62
+msgid "Temperature Unit"
+msgstr "Unitat de temperatura"
+
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:66
+msgid "Pressure Unit"
+msgstr "Unitat de pressió"
+
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:70
+msgid "Wind Speed Units"
+msgstr "Unitats de velocitat del vent"
+
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:71
+msgid ""
+"Choose the units used for wind speed. Allowed values are 'kph', 'mph', 'm/"
+"s', 'knots', 'ft/s' or 'Beaufort'."
+msgstr ""
+"Trieu les unitats utilitzades per a la velocitat del vent. Els valors "
+"permesos són 'kph', 'mph', 'm/s', 'kn', 'ft/s' o 'Beaufort'."
+
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:75
+msgid "Wind Direction by Arrows"
+msgstr "Direcció del vent amb fletxes"
+
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:76
+msgid "Choose whether to display wind direction through arrows or letters."
+msgstr "Trieu si es mostra la direcció del vent mitjançant fletxes o lletres."
+
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:80
+msgid "City to be displayed"
+msgstr "Ciutat a mostrar"
+
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:84
+msgid "Actual City"
+msgstr "Ciutat actual"
+
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:92
+msgid "OpenWeatherMap Multilingual Support (weather descriptions only)"
+msgstr ""
+"Suport Multilingüe de l'OpenWeatherMap (només les descripcions del temps)"
+
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:100
+msgid "Temperature in Panel"
+msgstr "Temperatura al tauler"
+
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:104
+msgid "Conditions in Panel"
+msgstr "Condicions climàtiques al tauler"
+
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:112
+msgid "Conditions in Forecast"
+msgstr "Condicions climàtiques a les previsions"
+
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:116
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:120
+msgid "Position in Panel"
+msgstr "Posició al tauler"
+
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:124
+msgid "Horizontal position of menu-box."
+msgstr "Posició horitzontal del requadre del menú."
+
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:128
+msgid "Refresh interval (actual weather)"
+msgstr "Interval d'actualitzacions (estat actual del temps)"
+
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:132
+msgid "Maximal length of the location text"
+msgstr "Llargada màxima del text de la ubicació"
+
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:136
+msgid "Refresh interval (forecast)"
+msgstr "Interval d'actualitzacions (previsions)"
+
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:140
+msgid "Center forecastbox."
+msgstr "Centrar el requadre de les previsions."
+
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:144
+msgid "Always keep forecast expanded"
+msgstr "Mantenir sempre les previsions ampliades"
+
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:148
+msgid "Number of days in forecast"
+msgstr "Nombre de dies a les previsions"
+
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:152
+msgid "Maximal number of digits after the decimal point"
+msgstr "Nombre màxim de dígits després de la coma decimal"
+
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:156
+msgid "Your personal API key from openweathermap.org"
+msgstr "La teva clau personal de l'API d'openweathermap.org"
+
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:160
+msgid "Use the extensions default API key from openweathermap.org"
+msgstr ""
+"Utilitzar la clau d'extensions predeterminada de l'API d'openweathermap.org"
+
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:164
+msgid "Your personal AppKey from developer.mapquest.com"
+msgstr "La teva clau personal de l'API de developer.mapquest.com"
+
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:168
+msgid "Seconds to delay popup initialization and data fetch on the first load"
+msgstr ""
+"Segons per a retardar la inicialització de la finestra emergent i l'obtenció "
+"de dades en el primer inici"
+
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:172
+msgid "Default width for the preferences window"
+msgstr "Amplada predeterminada de la finestra de preferències"
+
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:176
+msgid "Default height for the preferences window"
+msgstr "Alçada predeterminada de la finestra de preferències"
